@@ -309,3 +309,213 @@ Agrega un atributo target con el valor _blank al elemento ancla (a) de cat photo
 Paso 16
 Ahora que has añadido el enlace, puedes quitar el comentario.
 <!-- TODO: Add link to cat photos -->
+-->
+<!--
+Paso 17
+En pasos anteriores, usaste un elemento de anclaje para convertir texto en un enlace. Otros tipos de contenido también se pueden convertir en un enlace envolviéndolos en etiquetas anchor.
+
+Aquí hay un ejemplo de cómo convertir una imagen en un enlace:
+
+Código de ejemplo
+<a href="example-link">
+  <img src="image-link.jpg" alt="A photo of a cat.">
+</a>
+Convierte la imagen en un enlace rodeándola con las etiquetas correctas. Utiliza https://freecatphotoapp.com como valor del atributo href del elemento archor.
+
+-->
+<!--
+Paso 18
+Antes de añadir nuevo contenido, deberías utilizar un elemento section, para separar el contenido de cat photos, del contenido que añadiremos después.
+
+El elemento section se utiliza para definir secciones en un documento, como capítulos, encabezados, pies de página o cualquier otra sección del documento. Es un elemento semántico que ayuda con el SEO y la accesibilidad.
+
+Código de ejemplo
+<section>
+  <h2>Section Title</h2>
+  <p>Section content...</p>
+</section>
+Toma tu elemento h2, dos elementos p y el elemento de ancla (a) y anídalos en un elemento section.
+-->
+<!--
+Paso 19
+Es hora de añadir una nueva sección con un elemento section. Añade un segundo elemento section debajo del elemento section existente.
+-->
+<!--
+Paso 20
+Dentro del segundo elemento section, añade un nuevo elemento h2 con el texto Cat Lists.
+-->
+<!--
+Paso 21
+Cuando agregas un elemento de encabezado de menor rango a la página, se implica que estás comenzando una nueva subsección.
+
+Después del último elemento h2 del segundo elemento section, agrega un elemento h3 con este texto:
+
+Things cats love:
+-->
+<!--
+Paso 22
+Para crear una lista no ordenada de elementos, puedes usar el elemento ul.
+
+Después del elemento h3 con el texto Things cats love:, añade una lista desordenada, unordered list - (ul). Ten en cuenta que nada será mostrado aún.
+
+<ul> </ul>
+-->
+<!--
+Paso 23
+El elemento li es usado para crear una lista de elementos en una lista ordenada o en una lista desordenada.
+
+Aquí hay un ejemplo de una lista de objetos en una lista desordenada:
+
+Código de ejemplo
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+Dentro del elemento ul anida tres elementos li para mostrar tres cosas que aman los gatos:
+
+catnip
+
+laser pointers
+
+lasagna
+-->
+<!--
+Paso 24
+Después de la lista no ordenada, agrega una imagen nueva con un valor de atributo src:
+
+https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg
+
+Y su valor de atributo alt a:
+
+A slice of lasagna on a plate.
+
+debe quedar <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate">   
+-->
+<!--
+Paso 25
+El elemento figure representa contenido independiente y te permitirá asociar una imagen a una descripción.
+
+Introduce la imagen que acabas de añadir dentro de un elemento figure.
+-->
+<!--
+Paso 26
+Un elemento (figcaption), se utiliza para añadir una descripción o leyenda para describir una imagen anidada en un elemento figure.
+
+Aquí tienes un ejemplo de un elemento figcaption con la leyenda de A cute cat:
+
+Código de ejemplo
+<figure>
+  <img src="image.jpg" alt="A description of the image">
+  <figcaption>A cute cat</figcaption>
+</figure>
+Después de anidar la imagen en el elemento figure, añade un elemento figcaption con el texto:
+
+Cats love lasagna.
+asi 
+       <figure>
+  <img src="figcaption" alt="Cats love lasagna">
+  <figcaption>Cats love lasagna</figcaption>
+</figure> 
+-->
+<!--
+Paso 27
+Para poner énfasis en una palabra o frase específica, puedes utilizar el elemento em.
+
+Enfatiza la palabra love en el elemento figcaption envolviendola en un elemento énfasis em.
+-->
+<!--
+
+Paso 28
+Después del elemento figure, añade un elemento h3 con el texto:
+
+Top 3 things cats hate:
+-->
+<!--
+Paso 29
+El código de una lista ordenada, ordered list (ol), es similar al de una lista no ordenada, unordered list (ul), pero los elemento de una lista ordenada aparecen enumerados.
+
+Debajo del elemento h3, agrega una lista ordenada con estos tres elementos de lista:
+
+flea treatment thunder other cats
+-->
+<!--
+Paso 30
+Después de la lista ordenada (ol), añade otro elemento figure.
+-->
+<!--
+Paso 31
+Dentro del elemento figure que acabas de añadir, anida un elemento img con un atributo src con el valor https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.
+-->
+<!--
+Paso 32
+Para mejorar la accesibilidad de la imagen que agregaste, añade un atributo alt con el texto:
+
+Two tabby kittens sleeping together on a couch.
+-->
+<!--
+Paso 33
+Después del último elemento img añade un elemento figcaption con el texto Cats hate other cats.
+-->
+<!--
+Paso 34
+El elemento strong se utiliza para indicar que una parte de un texto es importante o urgente.
+
+En el figcaption que acabas de añadir, indica que hate tiene una fuerte importancia envolviéndolo en un elemento strong.
+-->
+<!--
+Paso 35
+El elemento footer se usa para definir el pie de página de un documento o sección. Un pie de página normalmente contiene información sobre el autor del documento, datos de copyright, enlaces a términos de uso, información de contacto, etcétera.
+
+Después del elemento main, añade un elemento footer.
+-->
+<!--
+Paso 36
+Anida un elemento p con el texto No Copyright - freeCodeCamp.org dentro del elemento footer.
+-->
+<!--
+Paso 37
+Convierte el texto existente freeCodeCamp.org a un link, poniéndolo dentro de un elemento anchor (a). El valor del atributo href debe ser https://www.freecodecamp.org.
+-->
+<!--
+Paso 38
+Puedes notar que todo lo que has añadido hasta ahora, está dentro del elemento body. Todos los elementos que deben ser renderizados o mostrados en la página, deben ir dentro del elemento body. Sin embargo, otro tipo información que también es importante va dentro del elemento head.
+
+El elemento head se usa para contener metadatos sobre el documento, como su título, enlaces a hojas de estilo y scripts. Los metadatos son información sobre la página que no se muestra directamente en la página.
+
+Agregue un elemento head sobre el elemento body.
+<!--
+Paso 39
+El elemento title (título) determina lo que los navegadores muestran en la barra de título o en las pestañas del navegador.
+
+Agrega un elemento title dentro del elemento head usando el texto a continuación:
+
+CatPhotoApp
+-->
+<!--
+Paso 40
+Puedes ver que todo el contenido de la página está anidado dentro de un elemento html. El elemento html es elemento esencial de una página HTML y envuelve todo el contenido en la página.
+
+También puedes especificar el idioma de tu página agregando el atributo lang al elemento html.
+
+Añade un atributo lang con el valor en a la etiqueta de apertura del elemento html para especificar que el lenguaje de la página es el inglés.
+-->
+<!--
+Paso 41
+Todas las páginas deben comenzar con <!DOCTYPE html>. Esta cadena especial se conoce como declaración y garantiza que el navegador intente cumplir con las especificaciones de la industria.
+
+<!DOCTYPE html> le dice a los navegadores que el documento es un documento HTML5 la cual es la última versión de HTML.
+
+Añade esta declaración como la primera línea del código.
+-->
+<!--
+Paso 42
+Puedes establecer el comportamiento del navegador añadiendo elementos meta en el head. Aquí tienes un ejemplo:
+
+Código de ejemplo
+<meta attribute="value">
+Dentro del elemento head, anida un elemento meta con un atributo charset establecido al valor UTF-8. Esto indica al navegador cómo codificar los caracteres de la página.
+
+Ten en cuenta que el elemento meta es un elemento vacío.
+
+Con ese último cambio, has completado el taller de la aplicación de fotos de gatos. ¡Felicidades!
+-->
