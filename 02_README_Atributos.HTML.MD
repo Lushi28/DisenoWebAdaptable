@@ -1,3 +1,4 @@
+<!--
 ¿Qué es HTML?
 HTML, que significa HyperText Markup Language, es un lenguaje de marcado para crear páginas web. Cuando visitas un sitio web y ves contenido como párrafos, títulos, enlaces, imágenes y videos, eso es HTML.
 
@@ -95,3 +96,4 @@ Aquí tienes un ejemplo de un elemento de texto input que está deshabilitado po
 
 <input type="text" disabled>
 HTML tiene muchos atributos que se pueden usar para personalizar el comportamiento y la apariencia de los elementos en una página web. Entender cómo usar los atributos es esencial para crear contenido web interactivo y accesible. En las próximas lecciones, aprenderás sobre más atributos de HTML y cómo usarlos eficazmente en tus proyectos de desarrollo web.
+-->
